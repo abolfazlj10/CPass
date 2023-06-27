@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'irSans';
+  src: url(../assets/IRANSansRegular.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+body{
+  color: #fff;
+  font-family: 'irSans';
+  background: url(./back.jpg);
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(18px);
+  height: 100vh;
+  font-size: 20px;
+}
